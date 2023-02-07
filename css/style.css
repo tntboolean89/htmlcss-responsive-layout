@@ -32,7 +32,31 @@ Main
     }
 }
 
+#planning {
+    background-color: var(--secondary-color);
+}
 
+#planning .row {
+   align-items: flex-end;
+ }
+
+ #planning .col {
+   border: 2px solid white;
+  }
+
+
+
+@media screen and (min-width: 992px){
+
+    #planning .row {
+       padding: 0 8.125rem;
+    }
+
+    #planning .col {
+        width: 50%;
+    }
+
+}
 
 
 

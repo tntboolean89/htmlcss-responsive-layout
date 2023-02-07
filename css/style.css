@@ -1,0 +1,74 @@
+/*
+Reset
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0084fd;
+    --primary-color-light: #b5ddff;
+    --secondary-color: #b5ddff;
+}
+
+/*
+Common
+*/
+
+.container {
+    max-width: 71.25rem;
+    margin: 0 auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    
+}
+
+.inline-style {
+    display: flex;
+    list-style: none;
+}
+
+/*
+Header
+*/
+
+header {
+    background-color: var(--primary-color);
+}
+
+@media screen and (min-width: 768px){
+    .hamburger {
+        display: none;
+    }
+
+    .main-menu {
+        display: block
+    }
+}
+
+
+/*
+Main
+*/
+
+/*
+Footer
+*/

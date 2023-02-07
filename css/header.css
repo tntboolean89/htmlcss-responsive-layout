@@ -1,0 +1,22 @@
+/*
+Header
+*/
+
+header {
+    background-color: var(--primary-color);
+}
+
+header .main-menu {
+    display: none;
+}
+
+
+@media screen and (min-width: 992px){
+    .hamburger {
+        display: none;
+    }
+
+    header .main-menu {
+        display: block
+    }
+}

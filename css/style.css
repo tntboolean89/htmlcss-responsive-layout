@@ -5,12 +5,36 @@
 @import url('header.css');
 
 
-
-
-
 /*
 Main
 */
+
+#features .col {
+    margin-bottom: 1.5625rem;
+    padding: .625rem
+}
+
+
+#features .col-content {
+    background-color: var(--primary-color-light);
+    height: 6.25rem;
+    border-radius: 1.25rem;
+    /* height: 100%; */
+}
+
+@media screen and (min-width: 768px){
+    #features .col {
+        width: calc(100% / 3);
+    }
+
+    #features .col-main {
+        width: calc((100% / 3) * 2);
+    }
+}
+
+
+
+
 
 /*
 Footer

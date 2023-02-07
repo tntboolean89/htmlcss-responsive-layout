@@ -20,9 +20,20 @@ Common
 
 .row {
     display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.625rem;
+  
+}
+
+.col {
+    width: 100%;
 }
 
 .inline-style {
     display: flex;
     list-style: none;
+}
+
+section {
+    padding: 1.25rem 0;
 }
